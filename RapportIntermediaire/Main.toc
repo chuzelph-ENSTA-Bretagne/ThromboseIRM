@@ -1,0 +1,42 @@
+\select@language {UKenglish}
+\contentsline {part}{I\hspace {1em}\IeC {\'E}tat de l'art}{6}{part.1}
+\contentsline {chapter}{\numberline {1}Qu'est ce que la thrombose veineuse profonde}{7}{chapter.1}
+\contentsline {section}{\numberline {1.1}terminologie}{7}{section.1.1}
+\contentsline {section}{\numberline {1.2}Causes et cons\IeC {\'e}quence}{7}{section.1.2}
+\contentsline {chapter}{\numberline {2}Quels moyens de d\IeC {\'e}tection?}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Elastom\IeC {\'e}trie}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}\IeC {\'E}chographie}{10}{section.2.2}
+\contentsline {section}{\numberline {2.3}Computed tomography angiography / Angiographie}{10}{section.2.3}
+\contentsline {section}{\numberline {2.4}Scanner}{11}{section.2.4}
+\contentsline {section}{\numberline {2.5}IRM}{11}{section.2.5}
+\contentsline {chapter}{\numberline {3}Option suivie}{12}{chapter.3}
+\contentsline {section}{\numberline {3.1}Obtention de courbe de rehaussement \IeC {\`a} partir des IRMs de perfusion.}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Carte de param\IeC {\`e}tre pharmacocin\IeC {\'e}tique.}{14}{section.3.2}
+\contentsline {section}{\numberline {3.3}Classification des courbes de rehaussement \IeC {\`a} partir de la classification spectrale.}{15}{section.3.3}
+\contentsline {part}{II\hspace {1em}Classification spectrale}{19}{part.2}
+\contentsline {chapter}{\numberline {4}Int\IeC {\'e}r\IeC {\^e}t de la classification spectrale.}{20}{chapter.4}
+\contentsline {chapter}{\numberline {5}Rappel sur la th\IeC {\'e}orie des graphes.}{22}{chapter.5}
+\contentsline {section}{\numberline {5.1}D\IeC {\'e}finitions de base.}{22}{section.5.1}
+\contentsline {section}{\numberline {5.2}Choix du laplacien de la matrice.}{22}{section.5.2}
+\contentsline {paragraph}{Matrice Laplacienne standard non normalis\IeC {\'e}e}{22}{section*.17}
+\contentsline {paragraph}{Matrice Laplacienne normalis\IeC {\'e}e non sym\IeC {\'e}trique}{22}{section*.18}
+\contentsline {paragraph}{Matrice Laplacienne normalis\IeC {\'e}e sym\IeC {\'e}trique}{22}{section*.19}
+\contentsline {chapter}{\numberline {6}Construction de la matrice de voisinage.}{23}{chapter.6}
+\contentsline {section}{\numberline {6.1}Choix du type de voisinage.}{23}{section.6.1}
+\contentsline {section}{\numberline {6.2}Choix de la distance et de la similitude.}{23}{section.6.2}
+\contentsline {section}{\numberline {6.3}Choix du param\IeC {\`e}tre de dispersion.}{24}{section.6.3}
+\contentsline {chapter}{\numberline {7}Quels algorithmes de classification spectrale?}{26}{chapter.7}
+\contentsline {chapter}{\numberline {8}R\IeC {\'e}sultats de l'algorithme et interpr\IeC {\'e}tations.}{29}{chapter.8}
+\contentsline {part}{III\hspace {1em}Application de la classification spectrale sur des donn\IeC {\'e}es r\IeC {\'e}elles}{33}{part.3}
+\contentsline {chapter}{\numberline {9}R\IeC {\'e}alisation de la chaine de traitement.}{34}{chapter.9}
+\contentsline {chapter}{\numberline {10}IMRs T2 du crane CHRU Brest Cavale Blanche.}{36}{chapter.10}
+\contentsline {chapter}{\numberline {11}IMRs T1 de la prostate de l'INSERM de Lille.}{37}{chapter.11}
+\contentsline {section}{\numberline {11.1}Types de courbe rencontr\IeC {\'e}es dans le cadre du cancer de la prostate}{37}{section.11.1}
+\contentsline {section}{\numberline {11.2}R\IeC {\'e}sultats de l'algorithme}{38}{section.11.2}
+\contentsline {part}{IV\hspace {1em}La probl\IeC {\'e}matique du nombre de classe}{40}{part.4}
+\contentsline {chapter}{\numberline {12}Choix automatique du nombre de classe.}{41}{chapter.12}
+\contentsline {section}{\numberline {12.1}Algorithme 1 : Analyse des valeurs propres et le n-gap}{41}{section.12.1}
+\contentsline {section}{\numberline {12.2}Algorithme 2 : Minimisation par la norme de Frobenius}{42}{section.12.2}
+\contentsline {section}{\numberline {12.3}Algorithme 2 : Minimisation par rotation}{43}{section.12.3}
+\contentsline {chapter}{\numberline {13}Application de ces algorithmes sur des donn\IeC {\'e}es r\IeC {\'e}elles}{44}{chapter.13}
+\contentsline {part}{V\hspace {1em}Annexes}{45}{part.5}

@@ -1,0 +1,69 @@
+\documentclass[twoside,twocolumn,a4paper,10pt]{article}
+
+\input{packages}     % Ce fichier contient tous les packages nécessaires à la compilation
+
+\input{Head}
+
+\begin{document}
+  \setlength{\absparindent}{1cm}
+  \setlength{\absparsep}{1cm}
+  \setlength{\absleftindent}{0pt}
+  \setlength{\absrightindent}{0pt}
+
+
+%----------------------------------------------------------------------------------------
+%	Abstract
+%----------------------------------------------------------------------------------------
+
+\maketitle
+    \begin{abstract}
+      \textbf{Many studies have been made in order to propose automatic diagnostic in medical fields. This paper proposes a new approach to deal with the problem of spectral clustering for signal extracted from brain MRI images. The tool-chain developed during this study can be easily implemented for the extraction and the analysis of information from perfusion MRI. We propose a reliable program which can easily isolate healthy from any pathological tissues. Experimental results are shown and discussed.}
+    \end{abstract}
+    \textit{\keywords{Spectral clustering, Signal and Image processing, Automatic segmentation, MRI}}
+\medskip
+
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\section{Introduction}
+
+\input{Intro}
+
+%------------------------------------------------
+
+\section{Methodology}
+
+\input{Methodology}
+
+%------------------------------------------------
+
+\section{Spectral Clustering Algorithms}
+
+\input{Algorithms}
+
+%------------------------------------------------
+
+\section{Results}
+
+\input{Results}
+
+%------------------------------------------------
+
+\section{Conclusion}
+
+\input{Discussion}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCE LIST
+%----------------------------------------------------------------------------------------
+
+
+\nocite{*}
+\bibliographystyle{IEEEtran}{\small}
+\bibliography{IEEEabrv,bibliographie}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

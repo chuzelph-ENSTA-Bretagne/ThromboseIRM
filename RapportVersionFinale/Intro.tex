@@ -1,0 +1,27 @@
+Le sujet d'étude de ce PFE a changé plusieurs fois pendant les 6 mois de travail. Au départ, M. Ali Mansour m'a proposé de m'incorporer à son projet d'étude sur la détection et la caractérisation des caillots sanguins, sujet qui était également étudié par Thibaud Berthomier. M. Berthomier cherchait à réaliser cette étude en utilisant des images issu de l'écho-graphiques et de l'élastométrie. Ce dernier est en thèse à l'ENSTA Bretagne et plusieurs basses de données ont déjà été mise au point pour son étude. 
+
+\medskip
+
+Pour ma part, je devais réaliser cette tache en étudiant des images IRM de thrombose et en utilisant une méthode mise au point par l'INSERM de Lille \cite{tartare2014contribution}. J'ai rapidement développé les algorithmes qui étaient implémentés dans cette thèse et j'ai pu les tester sur des données simples. Néanmoins, la récupération d'image fut beaucoup plus ardue. Dans un premier temps, j'ai pu rencontrer plusieurs médecins du CHRU de Brest qui m'ont beaucoup orienté et qui m'ont permis de délimiter un sujet clair d'étude pour mon projet de fin d'étude.
+
+\medskip
+
+Après plusieurs entretiens avec deux médecins du CHRU, M. Jean Christophe Gentrix et Pierre-Yves Salaun, et un interne actuellement au CHRU de la Cavale Blanche, M. Julien Ognard, nous sommes arrivés à la conclusion que tenter de caractériser  les caillots sanguins par les IRM n'était pas réalisable pendant la période du PFE. M. Gentrix et M. Ognard étant principalement spécialisés sur les pathologies du cerveau, ces derniers m'ont donc proposer de réaliser un programme d'aide au diagnostic pour les pathologies cérébrales, chose qui était possible avec les algorithmes que j'ai mis au point au début du stage.
+
+\medskip
+
+Pendant ces 6 mois, j'ai pu rencontrer une partie du personnel de l'INSERM de Lille qui avait mis au point un premier programme d'aide au diagnostic pour le cancer de la prostate et j'ai pu avoir 3 bases de données:
+
+\begin{itemize}
+\item Une base de données simulées pour le tissu cancéreux de la prostate,
+\item Une base de données réel d'image IRM de perfusion de prostate présentant des cancers qui a été utilisé pour valider dans un premier temps les résultats de l'algorithme,
+\item Une base de données d'image IRM de perfusion de cerveau présentant des pathologies cérébrales qui ont permis de voir si le programme d'aide au diagnostic mis au point proposait des résultats pertinents.
+\end{itemize}
+
+Au final, les résultats obtenus ont été satisfaisants et j'ai eu la chance de pouvoir publier les résultats dans la revue International Conference on Frontiers of Signal Processing (ICFSP) grâce à l'aide et aux recommandations de M. Ali Mansour.
+
+\medskip
+
+
+Ce rapport va dans un premier temps montrer l'évolution du projet et les différentes travaux bibliographiques qui ont été réalisés pendant cette étude. La seconde partie va présenter comment est architecturé notre chaine de traitement pour notre programme d'aide au diagnostique, l'intérêt de la classification spectrale pour notre chaine de traitement et les données sur lesquelles nous avons travaillé. La dernière partie va récapituler les grands résultats qui ont été obtenus.
+

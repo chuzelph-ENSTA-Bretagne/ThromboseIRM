@@ -1,0 +1,67 @@
+
+In the litterature, many references about the spectral clustering can be found \cite{von2007tutorial}, \cite{mouysset2010contributions}. However, we will here focus on the Jordan and Weiss spectral clustering algorithm JWSC \cite{von2007tutorial} because is very adapted to the unsupervised classification and it has provided the most satisfying results on the data we are dealing with. At the beginning, our algorithm builds a graph with its similarity matrix in order to evaluate the resemblance of the signal between them. In a second time, we will apply JWSC algorithm in order to cluster the signal thanks to the information extract from the similarity matrix.
+
+
+\subsection{Definition of the similarity matrix.}
+
+In order to have an algorithm independent from the processed data, we considered only full connected graph because it can estimate the resemblance of each sample with no a priori information. In a full connected graph, all the nodes are connected to each other.
+
+In order to build the similarity matrix $W$, two different options have been studied :
+
+\begin{itemize}
+
+\item First option uses a sparse representation based on building a $L_1$ graph. The main idea consists on rebuild each point $X_i$ with all the other samples, according to a $L_1$ minimisation problem \cite{yan2009semi}.
+
+\item Second option consists on defining $W$ as:
+\begin{equation}
+w_{ij} = \frac{\|X_i-X_j\|}{2\sigma_i\sigma_j}
+\end{equation}
+$\sigma_i$ is the coefficient of dispersion in the data around a point $X_i$ , \cite{tartare2014contribution}, \cite{mouysset2010contributions}. During the study, we found that the optimum value of $\sigma_i$ was the distance to the $7^{th}$ closest neighbour of the point $X_i$.
+
+\end{itemize}
+
+During the realization of the tool-chain, the first option was implemented but didn't give satisfaction. However, the second one on the contrary gave better results. The tool-chain use the second method for the construction of the graph and the matrix $W$.
+
+
+\subsection{Spectral clustering algorithm.}
+
+Many algorithms can be used for the spectral clustering, and some of them have been implemented during this project, \cite{von2007tutorial}, \cite{ng2002spectral},  \cite{shi2000normalized}. We give here details on the Jordan and Weiss algorithm.
+
+To implement the JWSC algorithm, we have firstly to define the Laplacian matrix $L$ of the matrix $W$. The Laplacian is defined by :
+
+\begin{equation}
+L = I-D^{-1/2}WD^{-1/2}
+\end{equation}
+
+where $D$ is the degree matrix defined by its coefficient $d_{ii} = \sum_j w_{ij}$, a diagonal matrix ad $I$ is the identity matrix.
+
+The processing tool-chain estimates the eigenvector associated to the smallest eigenvalues of $L$, normalizes each of them and realizes a classification using the k-means algorithm. The main steps of the JWSC algorithm are resumed in the algorithm \ref{alg:algorithm1}:
+
+\begin{algorithm}
+  \caption{Normalized spectral clustering, Jordan and Weiss }
+  
+  \textbf{Inputs}% Inputs section
+  \begin{algorithmic}[1]
+    \STATE Initiate the similarity matrix $W$
+    \STATE Define the number of class $N$
+  \end{algorithmic}
+  \bigskip
+
+  \textbf{Output}% Output section
+  \begin{algorithmic}[1]
+    \STATE The Cluster table $truth\_table$.
+  \end{algorithmic}
+  \bigskip
+  
+  \textbf{Algorithm}
+  \begin{algorithmic}[1]
+		\STATE Define the symmetric normalized Laplacian $L$ of $W$.
+     	\STATE Create a matrix $VectP$ which contains the N eigenvectors associated with the N smallest eigenvalues.
+     	\STATE Normalize all the line of $VectP$
+     	\STATE Apply the k-means on $VectP$ whit $N$ class and put the result in $truth\_table$.	
+  \RETURN $truth\_table$
+  \end{algorithmic}
+  \label{alg:algorithm1}
+\end{algorithm}
+
+The main outcome of the algorithm is a truth table clustering all pixels in the ROI.

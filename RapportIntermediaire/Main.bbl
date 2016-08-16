@@ -1,0 +1,123 @@
+\begin{thebibliography}{10}
+
+\bibitem{doi2007computer}
+Kunio Doi.
+\newblock Computer-aided diagnosis in medical imaging: historical review,
+  current status and future potential.
+\newblock {\em Computerized medical imaging and graphics}, 31(4):198--211,
+  2007.
+
+\bibitem{idbaih2006mri}
+Ahmed Idbaih, Monique Boukobza, Isabelle Crassard, Rapha{\"e}l Porcher,
+  Marie-Germaine Bousser, and Hugues Chabriat.
+\newblock Mri of clot in cerebral venous thrombosis high diagnostic value of
+  susceptibility-weighted images.
+\newblock {\em Stroke}, 37(4):991--995, 2006.
+
+\bibitem{jiao2010image}
+Jun Jiao, Xuan Mo, and Chen Shen.
+\newblock Image clustering via sparse representation.
+\newblock In {\em Advances in Multimedia Modeling}, pages 761--766. Springer,
+  2010.
+
+\bibitem{liebeskind2011ct}
+David~S Liebeskind, Nerses Sanossian, William~H Yong, Sidney Starkman,
+  Michael~P Tsang, Antonio~L Moya, David~D Zheng, Anna~M Abolian, Doojin Kim,
+  Latisha~K Ali, et~al.
+\newblock Ct and mri early vessel signs reflect clot composition in acute
+  stroke.
+\newblock {\em Stroke}, 42(5):1237--1243, 2011.
+
+\bibitem{longo2015cluster}
+Dario~Livio Longo, Walter Dastr{\`u}, Lorena Consolino, Miklos Espak, Maddalena
+  Arigoni, Federica Cavallo, and Silvio Aime.
+\newblock Cluster analysis of quantitative parametric maps from dce-mri:
+  application in evaluating heterogeneity of tumor response to antiangiogenic
+  treatment.
+\newblock {\em Magnetic resonance imaging}, 33(6):725--736, 2015.
+
+\bibitem{meila2002comparing}
+Marina Meila.
+\newblock Comparing clusterings.
+\newblock 2002.
+
+\bibitem{mouysset2010contributions}
+Sandrine Mouysset.
+\newblock {\em Contributions {\`a} l'{\'e}tude de la classification spectrale
+  et applications}.
+\newblock PhD thesis, Institut National Polytechnique de Toulouse-INPT, 2010.
+
+\bibitem{ng2002spectral}
+Andrew~Y Ng, Michael~I Jordan, Yair Weiss, et~al.
+\newblock On spectral clustering: Analysis and an algorithm.
+\newblock {\em Advances in neural information processing systems}, 2:849--856,
+  2002.
+
+\bibitem{ophir1991elastography}
+Jonathan Ophir, Ignacio Cespedes, Hm~Ponnekanti, Y~Yazdi, and Xin Li.
+\newblock Elastography: a quantitative method for imaging the elasticity of
+  biological tissues.
+\newblock {\em Ultrasonic imaging}, 13(2):111--134, 1991.
+
+\bibitem{schmitt2011characterization}
+Cedric Schmitt, Anis~Hadj Henni, and Guy Cloutier.
+\newblock Characterization of blood clot viscoelasticity by dynamic ultrasound
+  elastography and modeling of the rheological behavior.
+\newblock {\em Journal of biomechanics}, 44(4):622--629, 2011.
+
+\bibitem{schmitt2013shear}
+C{\'e}dric Schmitt, Emmanuel Montagnon, Anis~Hadj Henni, Shijie Qi, and Guy
+  Cloutier.
+\newblock Shear wave induced resonance elastography of venous thrombi: A
+  proof-of-concept.
+\newblock {\em Medical Imaging, IEEE Transactions on}, 32(3):565--577, 2013.
+
+\bibitem{shi2000normalized}
+Jianbo Shi and Jitendra Malik.
+\newblock Normalized cuts and image segmentation.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}, 22(8):888--905, 2000.
+
+\bibitem{tartare2014contribution}
+Guillaume TARTARE.
+\newblock {\em Contribution {\`a} l'analyse de l'IRM dynamique pour l’aide au
+  diagnostic du cancer de la prostate}.
+\newblock PhD thesis, ENSTA Bretagne, 2014.
+
+\bibitem{temme2015noninvasive}
+Sebastian Temme, Christoph Grapentin, Christine Quast, Christoph Jacoby, Maria
+  Grandoch, Zhaoping Ding, Christoph Owenier, Friederike Mayenfels, Jens~W
+  Fischer, Rolf Schubert, et~al.
+\newblock Noninvasive imaging of early venous thrombosis by 19f magnetic
+  resonance imaging with targeted perfluorocarbon nanoemulsions.
+\newblock {\em Circulation}, 131(16):1405--1414, 2015.
+
+\bibitem{von2007tutorial}
+Ulrike Von~Luxburg.
+\newblock A tutorial on spectral clustering.
+\newblock {\em Statistics and computing}, 17(4):395--416, 2007.
+
+\bibitem{wu2014spectral}
+Sen Wu, Xiaodong Feng, and Wenjun Zhou.
+\newblock Spectral clustering of high-dimensional data exploiting sparse
+  representation vectors.
+\newblock {\em Neurocomputing}, 135:229--239, 2014.
+
+\bibitem{yan2009semi}
+Shuicheng Yan and Huan Wang.
+\newblock Semi-supervised learning by sparse representation.
+\newblock In {\em SDM}, pages 792--801. SIAM, 2009.
+
+\bibitem{yang2013fast}
+Allen~Y Yang, Zihan Zhou, Arvind~Ganesh Balasubramanian, S~Shankar Sastry, and
+  Yi~Ma.
+\newblock Fast-minimization algorithms for robust face recognition.
+\newblock {\em Image Processing, IEEE Transactions on}, 22(8):3234--3246, 2013.
+
+\bibitem{zelnik2004self}
+Lihi Zelnik-Manor and Pietro Perona.
+\newblock Self-tuning spectral clustering.
+\newblock In {\em Advances in neural information processing systems}, pages
+  1601--1608, 2004.
+
+\end{thebibliography}

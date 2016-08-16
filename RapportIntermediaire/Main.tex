@@ -1,0 +1,71 @@
+\documentclass[12pt,fleqn]{report} %taille de la police par défaut, et équations jusitifées à gauche
+\input{packages}     % Ce fichier contient tous les packages nécessaires à la compilation
+\makeindex           % donne l'ordre de créer l'index
+
+\begin{document}
+\renewcommand{\contentsname}{Contents}                % des jolis noms pour la table des matières
+\renewcommand{\bibname}{Bibliography}  % des jolis noms pour les sections bibliographiques
+
+%----------------------------------------------------------------------------------------
+%	 PAGE DE TITRE
+%-----------------------------	-----------------------------------------------------------
+\input{PageDeTitre}
+
+%----------------------------------------------------------------------------------------
+%	SOMMAIRE
+%----------------------------------------------------------------------------------------
+\tableofcontents  % Imprime le sommaire
+\cleardoublepage  % pour commencer sur une page impaire
+
+\chapter*{Abstract}
+\input{Abstract}
+
+\chapter*{Introduction}
+\input{Intro}
+
+
+%----------------------------------------------------------------------------------------
+%	PART I 
+%----------------------------------------------------------------------------------------
+\part{État de l'art}
+\input{Part1}
+
+%----------------------------------------------------------------------------------------
+%	PART II 
+%----------------------------------------------------------------------------------------
+\part{Classification spectrale}
+\input{Part2}
+
+%----------------------------------------------------------------------------------------
+%	PART III 
+%----------------------------------------------------------------------------------------
+
+\part{Application de la classification spectrale sur des données réelles}
+\input{Part3}
+
+%----------------------------------------------------------------------------------------
+%	PART IV
+%----------------------------------------------------------------------------------------
+
+\part{La problématique du nombre de classe}
+\input{Part4}
+
+
+\appendix
+\part{Annexes}
+\input{Appendix}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHIE
+%----------------------------------------------------------------------------------------
+
+%\addcontentsline{toc}{part}{Bibliography}
+%\bibliographystyle{apalike-fr}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{bibliographie}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

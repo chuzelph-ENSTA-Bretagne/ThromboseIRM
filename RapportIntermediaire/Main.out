@@ -1,0 +1,38 @@
+\BOOKMARK [-1][-]{part.1}{I \311tat de l'art}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Qu'est ce que la thrombose veineuse profonde}{part.1}% 2
+\BOOKMARK [1][-]{section.1.1}{terminologie}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Causes et cons\351quence}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Quels moyens de d\351tection?}{part.1}% 5
+\BOOKMARK [1][-]{section.2.1}{Elastom\351trie}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.2}{\311chographie}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Computed tomography angiography / Angiographie}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.4}{Scanner}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.5}{IRM}{chapter.2}% 10
+\BOOKMARK [0][-]{chapter.3}{Option suivie}{part.1}% 11
+\BOOKMARK [1][-]{section.3.1}{Obtention de courbe de rehaussement \340 partir des IRMs de perfusion.}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.2}{Carte de param\350tre pharmacocin\351tique.}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.3}{Classification des courbes de rehaussement \340 partir de la classification spectrale.}{chapter.3}% 14
+\BOOKMARK [-1][-]{part.2}{II Classification spectrale}{}% 15
+\BOOKMARK [0][-]{chapter.4}{Int\351r\352t de la classification spectrale.}{part.2}% 16
+\BOOKMARK [0][-]{chapter.5}{Rappel sur la th\351orie des graphes.}{part.2}% 17
+\BOOKMARK [1][-]{section.5.1}{D\351finitions de base.}{chapter.5}% 18
+\BOOKMARK [1][-]{section.5.2}{Choix du laplacien de la matrice.}{chapter.5}% 19
+\BOOKMARK [0][-]{chapter.6}{Construction de la matrice de voisinage.}{part.2}% 20
+\BOOKMARK [1][-]{section.6.1}{Choix du type de voisinage.}{chapter.6}% 21
+\BOOKMARK [1][-]{section.6.2}{Choix de la distance et de la similitude.}{chapter.6}% 22
+\BOOKMARK [1][-]{section.6.3}{Choix du param\350tre de dispersion.}{chapter.6}% 23
+\BOOKMARK [0][-]{chapter.7}{Quels algorithmes de classification spectrale?}{part.2}% 24
+\BOOKMARK [0][-]{chapter.8}{R\351sultats de l'algorithme et interpr\351tations.}{part.2}% 25
+\BOOKMARK [-1][-]{part.3}{III Application de la classification spectrale sur des donn\351es r\351elles}{}% 26
+\BOOKMARK [0][-]{chapter.9}{R\351alisation de la chaine de traitement.}{part.3}% 27
+\BOOKMARK [0][-]{chapter.10}{IMRs T2 du crane CHRU Brest Cavale Blanche.}{part.3}% 28
+\BOOKMARK [0][-]{chapter.11}{IMRs T1 de la prostate de l'INSERM de Lille.}{part.3}% 29
+\BOOKMARK [1][-]{section.11.1}{Types de courbe rencontr\351es dans le cadre du cancer de la prostate}{chapter.11}% 30
+\BOOKMARK [1][-]{section.11.2}{R\351sultats de l'algorithme}{chapter.11}% 31
+\BOOKMARK [-1][-]{part.4}{IV La probl\351matique du nombre de classe}{}% 32
+\BOOKMARK [0][-]{chapter.12}{Choix automatique du nombre de classe.}{part.4}% 33
+\BOOKMARK [1][-]{section.12.1}{Algorithme 1 : Analyse des valeurs propres et le n-gap}{chapter.12}% 34
+\BOOKMARK [1][-]{section.12.2}{Algorithme 2 : Minimisation par la norme de Frobenius}{chapter.12}% 35
+\BOOKMARK [1][-]{section.12.3}{Algorithme 2 : Minimisation par rotation}{chapter.12}% 36
+\BOOKMARK [0][-]{chapter.13}{Application de ces algorithmes sur des donn\351es r\351elles}{part.4}% 37
+\BOOKMARK [-1][-]{part.5}{V Annexes}{}% 38
