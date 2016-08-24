@@ -1,7 +1,7 @@
 \documentclass{beamer}
 
 
-\usepackage[frenchb]{babel}
+%\usepackage[frenchb]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}  %\usepackage[latin1]{inputenc} selon Windows ou Ubuntu
 \usepackage{multimedia}
@@ -18,7 +18,7 @@
 \date{31 aout 2016}
 
 % Ajout du logo
-\logo{\includegraphics[height=15mm]{ensta-bretagne-vertical.png}}
+%\titlegraphic{\includegraphics[height=1cm,width=2cm]{ensta-bretagne-vertical.png}}
 \addtobeamertemplate{footline}{\insertframenumber/\inserttotalframenumber}
 
 % Permet de parametrer la barre d'outil en verticale
@@ -44,7 +44,19 @@
 
 % Frame de titre
 \begin{frame}
-\titlepage
+\maketitle
+\small
+{\centering\itshape Membres du jury \par}
+President: L. Hardouin\par\medskip
+\begin{tabular}[t]{@{}l@{\hspace{3pt}}p{.32\textwidth}@{}}
+Examinateurs: & L. Jaulin %\\
+%& / \\
+%& /
+\end{tabular}%
+\footnotesize
+\begin{tabular}[t]{@{}l@{\hspace{3pt}}p{.3\textwidth}@{}}
+Sous la tutelle: & A. Mansour 
+\end{tabular}%
 \end{frame}
 
 % Permet d'imposer l'affichage du sommaire à chaque changement de section
@@ -193,6 +205,16 @@ Après deux mois de travail principalement bibliographique, nous avons pu récup
 
 % Frame 2
 \begin{frame}
+\frametitle{Principe de l'IRM de perfusion.}
+
+%\url{IRMsain.avi}
+\movie[height = 0.55\textwidth, width = 1\textwidth, poster, showcontrols]{\includegraphics[scale=0.2]{Plain-Black-Wallpaper.png}}{IRMsain.avi}
+
+
+\end{frame}
+
+% Frame 3
+\begin{frame}
 
 Au final, nous avons pu établir une base de données de d'image IRM de cerveau de 13 patients présentant toutes une pathologie :
 
@@ -206,13 +228,14 @@ On arrive a des ensembles d'image de taille 128*128 pixels qui traduisent la dif
 
 \end{frame}
 
+% Frame 4
 \begin{frame}
 
 \begin{figure}
 
 \frametitle{Chaine de traitement développé dans le cadre du PFE.}
 \centering
-    \includegraphics[scale=0.5,angle=0]{Processing_toolchain.png}
+    \includegraphics[scale=0.5,angle=0]{Processing_toolchain.PNG}
     \label{fig:Chaine} 
     
 \end{figure}
@@ -350,7 +373,7 @@ Résultats de l'algorithme de classification spectrale:
 
 \frametitle{Chaine de traitement développé dans le cadre du PFE.}
 \centering
-    \includegraphics[scale=0.5,angle=0]{Processing_toolchain.png}
+    \includegraphics[scale=0.5,angle=0]{Processing_toolchain.PNG}
     \label{fig:Chaine} 
     
 \end{figure}
@@ -374,15 +397,16 @@ Présentation des résultats des algorithmes pour deux patients:
 \item Un patient présentant un lymphome cérébrale primitive.
 \end{itemize}
 
-\url{IRMsain.avi}
 
 
 \end{frame}
 
 % Frame 1 résultat patient 2
 \begin{frame}
+\frametitle{IRM de perfusion Patient 1}
 
-\url{videoOut17.avi}
+\movie[height = 0.55\textwidth, width = 1\textwidth, poster, showcontrols]{\includegraphics[scale=0.2]{Plain-Black-Wallpaper.png}}{videoOut17.avi}
+%\url{videoOut17.avi}
 
 \end{frame}
 
@@ -414,8 +438,10 @@ Ici, on voit clairement 2 principaux tissus:
 % Frame 1 résultat patient 4
 
 \begin{frame}
+\frametitle{IRM de perfusion Patient 2}
+\movie[height = 0.55\textwidth, width = 1\textwidth, poster, showcontrols]{\includegraphics[scale=0.2]{Plain-Black-Wallpaper.png}}{videoOut13.avi}
 
-\url{videoOut13.avi}
+%\url{videoOut13.avi}
 
 \end{frame}
 
