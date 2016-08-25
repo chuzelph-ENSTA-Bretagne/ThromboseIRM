@@ -47,7 +47,7 @@ Au final, en appliquant nos algorithmes à une IRM de perfusion de la prostate, 
 \begin{figure}[H]
 \centering
     \includegraphics[scale=0.4,angle=0]{Images/3classProstate2.png}
-    \caption{Coupes sélectionnées. En haut à gauche le résultat de l'algorithme de classification. En haut à droit, image de la coupe sélectionnée avec la ROI représentée par l'ellipse rouge. En bas à gauche, ROI en fausses couleurs.}
+    \caption{Coupes sélectionnées. En haut à gauche le résultat de l'algorithme de classification. En haut à droite, image de la coupe sélectionnée avec la ROI représentée par l'ellipse rouge. En bas à gauche, ROI en fausses couleurs.}
     \label{fig:3classProstate2}
 \end{figure} 
 
@@ -110,7 +110,7 @@ Le second paramètre est le CBF ou \textit{cerebral brain flow}. Il n'est pas pe
 
 \section{Patient 1: Cancer identifiable par l'IRM de perfusion.}
 
-L'IRM qui est ici présentée provient d'un patient qui a un cancer bénin situé à la frontière du cerveau et de la boite crânienne. La tumeur est visible sur la figure suivante à sur la partie gauche de l'image. A sa droite, on peut voir la présence d'un assez gros œdème résultant de la présence de la tumeur. Le reste du cerveau est sain et il y a au centre de l'image le ventricule cérébrale qui produit le liquide céphalo-rachidien. Ce dernier apparait ici avec un hyper-signal caractéristique.
+L'IRM qui est ici présentée provient d'un patient qui a un cancer bénin situé à la frontière du cerveau et de la boite crânienne. La tumeur est visible sur la figure suivante sur la partie gauche de l'image. A sa droite, on peut voir la présence d'un assez gros œdème résultant de la présence de la tumeur. Le reste du cerveau est sain et il y a au centre de l'image le ventricule cérébrale qui produit le liquide céphalo-rachidien. Ce dernier apparait ici avec un hyper-signal caractéristique.
 
 % Figure avec IRM en niveau de gris de la tumeur
 \begin{figure}[H]
@@ -120,7 +120,7 @@ L'IRM qui est ici présentée provient d'un patient qui a un cancer bénin situ�
     \label{fig:patient4IRM}
 \end{figure}
 
-Nous avons donc appliqué notre algorithme en sélectionnant une ROI qui ne contient pas le ventricule cérébral afin qu'il ne vienne pas parasité le résultat de l'algorithme. Nous avons également demandé qu'il ressorte quatre classes. La figure qui suit montre dans l'ordre, l'IRM du patient en fausse couleur, la carte paramétrique du CBV et le résultat de notre algorithme.
+Nous avons donc appliqué notre algorithme en sélectionnant une ROI qui ne contient pas le ventricule cérébral afin qu'il ne vienne pas parasiter le résultat de l'algorithme. Nous avons également demandé qu'il ressorte quatre classes. La figure qui suit montre dans l'ordre, l'IRM du patient en fausse couleur, la carte paramétrique du CBV et le résultat de notre algorithme.
 
 % Figure du patient 4 avec les résultats du programme.
 \begin{figure}[H]
@@ -162,7 +162,7 @@ L'IRM qui suit provient d'un patient qui a un cancer situé dans la région en h
     \label{fig:patient4IRMResult}
 \end{figure}
 
-Nous avons testé notre algorithme en demandant la création de 2 et 3 classes et on retrouve un résultat similaire à celui ci-dessus. On observe que dans le cas où on demande deux classes, on a l'œdème qui est identifié et pour 3 classes, on a une zone frontière qui se créer entre le tissu sain et l'œdème. Néanmoins, la tumeur ne peut être identifier.
+Nous avons testé notre algorithme en demandant la création de 2 et 3 classes et on retrouve un résultat similaire à celui ci-dessus. On observe que dans le cas où on demande deux classes, on a l'œdème qui est identifié et pour 3 classes, on a une zone frontière qui se crée entre le tissu sain et l'œdème. Néanmoins, la tumeur ne peut être identifiée.
 
 \begin{figure}[H]
 \centering

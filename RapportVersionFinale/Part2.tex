@@ -1,10 +1,10 @@
 \chapter{Réalisation de la chaine de traitement.}
 
-Tout le travail qui va être présenté a été fait sur Matlab. Il existe plusieurs bibliothèque qui sont spécialement dédié à l'utilisation d'image IRM. Toutes les images qui ont été utilisées sont au format Dicom. Ce format contient d'une part l'image du patient et d'autre part un vaste ensemble de méta-données qui donne des informations sur la machine qui a pris l'image, sur le patient et son état de santé, le lieu de l'établissement qui a fait l'image et les nom des praticiens qui ont fait la manipulation.
+Tout le travail qui va être présenté a été fait sur Matlab. Il existe plusieurs bibliothèques qui sont spécialement dédiées à l'utilisation d'image IRM. Toutes les images qui ont été utilisées sont au format Dicom. Ce format contient d'une part l'image du patient et d'autre part un vaste ensemble de méta-données qui donne des informations sur la machine qui a pris l'image, sur le patient et son état de santé, le lieu de l'établissement qui a fait l'image et les nom des praticiens qui ont fait la manipulation.
 
 \medskip
 
-Il y a un certain travail de pré-traitement des données à faire avant de pouvoir utiliser les IRM de perfusion. Grâce au méta-données, on peut récupérer très facilement le nombre de coupe et le nombre de séquence pour une coupe donnée. La Figure \ref{fig:diffusion} montre comment évolue l'intensité de l'IRM d'une coupe au cours du temps pendant la diffusion du produit de contraste.
+Il y a un certain travail de pré-traitement des données à faire avant de pouvoir utiliser les IRM de perfusion. Grâce aux méta-données, on peut récupérer très facilement le nombre de coupe et le nombre de séquence pour une coupe donnée. La Figure \ref{fig:diffusion} montre comment évolue l'intensité de l'IRM d'une coupe au cours du temps pendant la diffusion du produit de contraste.
 
 
 \begin{figure}[H]
@@ -41,7 +41,7 @@ Il y a un certain travail de pré-traitement des données à faire avant de pouv
     \label{fig:diffusion} 
 \end{figure}
 
-Pour chacune des IRM de cerveau que nous avons récupéré, nous avons donc obtenu un ensemble d'images IRM qui sont réparties selon 24 ou 26 coupes avec pour chaque coupe 40 images traduisant la diffusion du produit de contraste et chaque image est de dimension 256 sur 256 pixels. On a donc pour chaque coupe une tenseur de dimension 256*256*40 qui contient toutes les informations sur la diffusion du produit de contraste.
+Pour chacune des IRM de cerveau que nous avons récupéré, nous avons donc obtenu un ensemble d'images IRM qui sont réparties selon 24 ou 26 coupes avec pour chaque coupe 40 images traduisant la diffusion du produit de contraste et chaque image est de dimension 256 sur 256 pixels. On a donc pour chaque coupe un tenseur de dimension 256*256*40 qui contient toutes les informations sur la diffusion du produit de contraste.
 
 \medskip
 
@@ -87,11 +87,11 @@ Il existe une très large bibliographie sur la classification non supervisée. N
 \end{subfigure}
 \end{figure}
 
-Ici, tous les nuages de points présentent un même centre et cela fausse le résultat bien que des zones de frontières sont facilement identifiable. L'intérêt de la classification spectrale est de construire un graphe par l'intermédiaire d'une matrice de voisinage qui va traduire les similitudes entre les entrées. Ensuite, il faut travailler sur le spectre de cette matrice afin de pouvoir faire une classification. 
+Ici, tous les nuages de points présentent un même centre et cela fausse le résultat bien que des zones de frontières sont facilement identifiables. L'intérêt de la classification spectrale est de construire un graphe par l'intermédiaire d'une matrice de voisinage qui va traduire les similitudes entre les entrées. Ensuite, il faut travailler sur le spectre de cette matrice afin de pouvoir faire une classification. 
 
 \medskip
 
-Dans notre cas d'étude, nous devons étudier des signaux temporels dont on ne connait a priori aucuns paramètres discriminants. Il est donc nécessaire de parvenir à trouver un espace dans lequel la classification puisse aboutir à des résultats pertinents. La classification spectrale est donc ici particulièrement adaptée par rapport au autre algorithme de classification non supervisé.
+Dans notre cas d'étude, nous devons étudier des signaux temporels dont on ne connait a priori aucuns paramètres discriminants. Il est donc nécessaire de parvenir à trouver un espace dans lequel la classification puisse aboutir à des résultats pertinents. La classification spectrale est donc ici particulièrement adaptée par rapport aux autres algorithmes de classification non supervisé.
 
 \chapter{Choix réalisé pour l'implémentation de la classification spectrale.}
 
